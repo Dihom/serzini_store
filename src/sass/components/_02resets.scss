@@ -1,0 +1,50 @@
+*, *::after, *::before {
+   box-sizing: border-box;
+}
+
+html {
+   padding: 40px;
+   font-family: 'Fira Code', monospace;
+   color: #fff;
+   overflow: hidden;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Fira Code', monospace;
+   background-color: #010C15;
+
+}
+
+ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+p {
+   padding: 0;
+   margin: 0;
+}
+
+button {
+   font-family: 'Fira Code', monospace;
+   background: none;
+   outline: none;
+   border: none;
+   padding: 0;
+   margin: 0;
+   color: #fff;
+   cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   padding: 0;
+}
