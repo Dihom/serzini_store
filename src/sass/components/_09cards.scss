@@ -5,6 +5,7 @@
    // .catalog__text
 
    &__text {
+      margin-bottom: 20px;
       font-weight: 600;
       font-size: 28px;
       line-height: 28px;
@@ -14,11 +15,19 @@
 }
 
 .catalog-title {
-   margin-bottom: 60px;
+   margin-bottom: 40px;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    text-align: center;
+}
+
+.catalog__subtitle {
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 28px;
+   color: #8B8B8B;
 }
 
 .container {
@@ -31,13 +40,13 @@
    justify-content: center;
 }
 
-.img-hover {
-   width: 320px;
-   height: 426px;
-   overflow: hidden;
-}
-
 .cards-item {
+   // transition: transform 0.2s ease-in-out;
+
+   &:hover {
+      // transform: translateY(-8px);
+
+   }
    
 
    // .cards-item__img
@@ -47,7 +56,6 @@
    }
 
    &__img:hover {
-      transform: scale(2);
    }
 }
 .cards-price {
@@ -108,6 +116,9 @@
    // .cards-btn__left
 
    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 150px;
       height: 40px;
       font-family: 'Montserrat';
@@ -116,13 +127,16 @@
       font-size: 16px;
       line-height: 16px;
       color: #FFFFFF;
-      background: linear-gradient(90deg, #E541B1 0%, #C03092 100%);
+      background: linear-gradient(90deg, #e541b1 0%, #C03092 100%);
       border-radius: 5px;
    }
 
    // .cards-btn__right
 
    &__right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 150px;
       height: 40px;
       font-family: 'Montserrat';

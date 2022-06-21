@@ -76,4 +76,4 @@ dotContainer.addEventListener('click', function(e) {
    }
 });
 
-// setInterval(() => nextSlide(), 6000);
+setInterval(() => nextSlide(), 10000);
