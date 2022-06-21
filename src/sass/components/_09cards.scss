@@ -1,0 +1,138 @@
+.catalog {
+   padding: 80px 0px 80px 0px;
+   background: #F9F9F9;
+
+   // .catalog__text
+
+   &__text {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 28px;
+      color: #242424;
+      text-transform: uppercase;
+   }
+}
+
+.catalog-title {
+   margin-bottom: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.container {
+}
+
+.cards {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 320px);
+   gap: 70px 70px;
+   justify-content: center;
+}
+
+.img-hover {
+   width: 320px;
+   height: 426px;
+   overflow: hidden;
+}
+
+.cards-item {
+   
+
+   // .cards-item__img
+
+   &__img {
+      margin-bottom: 10px;
+   }
+
+   &__img:hover {
+      transform: scale(2);
+   }
+}
+.cards-price {
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+
+   // .cards-price__current
+
+   &__current {
+      padding-right: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 20px;
+      color: #242424;
+   }
+
+   // .cards-price__old
+
+   &__old {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 0px;
+      text-decoration-line: line-through;
+      color: #8B8B8B;
+   }
+}
+.cards {
+
+   // .cards__title
+
+   &__title {
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 14px;
+      color: #8B8B8B;
+   }
+
+   // .cards__star
+
+   &__star {
+      
+
+   }
+}
+.cards-stars {
+   margin-bottom: 10px;
+}
+.cards-button {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.cards-btn {
+   
+
+   // .cards-btn__left
+
+   &__left {
+      width: 150px;
+      height: 40px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      color: #FFFFFF;
+      background: linear-gradient(90deg, #E541B1 0%, #C03092 100%);
+      border-radius: 5px;
+   }
+
+   // .cards-btn__right
+
+   &__right {
+      width: 150px;
+      height: 40px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      color: #C53296;
+      background: transparent;
+      border-radius: 5px;
+      border: 2px solid #C03092;
+   }
+}

@@ -2,32 +2,34 @@ html {
    font-family: 'Montserrat', sans-serif;
 }
 
-*,
-html * /* override x.xhtml.ru style */ 
-{
-   scrollbar-width: thin;
-   scrollbar-color: #1E2D3D #011627;
-}
 
-*::-webkit-scrollbar,
-html *::-webkit-scrollbar {
-   height: 6px;
-   width: 6px;
-}
-*::-webkit-scrollbar-track,
-html *::-webkit-scrollbar-track {
-   background: #011627;
-   border-top: 1px solid #011627;
+// Кастомный скролл
+// *,
+// html * /* override x.xhtml.ru style */ 
+// {
+//    scrollbar-width: thin;
+//    scrollbar-color: #1E2D3D #011627;
+// }
+
+// *::-webkit-scrollbar,
+// html *::-webkit-scrollbar {
+//    height: 6px;
+//    width: 6px;
+// }
+// *::-webkit-scrollbar-track,
+// html *::-webkit-scrollbar-track {
+//    background: #011627;
+//    border-top: 1px solid #011627;
 
 
-}
-*::-webkit-scrollbar-thumb,
-html *::-webkit-scrollbar-thumb {
-   background-color: #1E2D3D;
-   border-radius: 3px;
-   border: 1px solid #011627;
-   // box-shadow: 1px 1px 15px #FEA55F;
-}
+// }
+// *::-webkit-scrollbar-thumb,
+// html *::-webkit-scrollbar-thumb {
+//    background-color: #1E2D3D;
+//    border-radius: 3px;
+//    border: 1px solid #011627;
+//    // box-shadow: 1px 1px 15px #FEA55F;
+// }
 
 .container {
    margin: 0 auto;

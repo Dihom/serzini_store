@@ -10,11 +10,8 @@ const btnRight = document.querySelector('.slider__btn--right');
 const dotContainer = document.querySelector('.dots')
 
 let currentSlide = 0;
-const slidesNumber = slides.length;
 
-// const slider = document.querySelector('.slider');
-// slider.style.transform = 'scale(0.4) translateX(-1030px)';
-// slider.style.overflow = 'visible';
+const slidesNumber = slides.length;
 
 const createDots = function() {
    slides.forEach(function (_, index) {
@@ -78,3 +75,5 @@ dotContainer.addEventListener('click', function(e) {
 
    }
 });
+
+// setInterval(() => nextSlide(), 6000);
