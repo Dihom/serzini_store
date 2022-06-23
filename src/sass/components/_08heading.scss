@@ -34,21 +34,28 @@
       position: absolute;
       top: 50%;
       z-index: 10;
-      border: none;
-      background: #fff;
-      opacity: 0.6;
-      // font-family: inherit;
-      // color: #333;
-      border-radius: 50%;
       height: 40px;
       width: 40px;
-      // font-size: 3.25rem;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+      // filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.15));
+      border: none;
+      background: #fff;
+      opacity: 0.7;
+      border-radius: 50%;
       cursor: pointer;
       transition: opacity 0.2s ease-in-out;
    }
 
    &__btn:hover {
       opacity: 1;
+   }
+
+   &__btn:hover .arrow-left {
+      fill: #C03092;
+   }
+
+   &__btn:hover .arrow-right {
+      fill: #C03092;
    }
 
    // .slider__btn--left
@@ -73,7 +80,13 @@
 .heading__btn-arrow {
    height: 15px;
    transform: translateY(80%);
+}
 
+.arrow-left, .arrow-right {
+   height: 15px;
+   fill: #8b8b8b;
+   transform: translateY(80%);
+   transition: fill 0.2s ease-in-out;
 }
 
 .slide {
