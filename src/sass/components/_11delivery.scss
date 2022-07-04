@@ -1,0 +1,258 @@
+.delivery {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   background: #F9F9F9;
+}
+.container {
+}
+.delivery-title {
+   margin-bottom: 60px;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 28px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: #242424;
+   text-transform: uppercase;
+}
+.delivery-terms {
+
+		// .delivery-terms__title
+
+		&__title {
+         margin-bottom: 15px;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+         text-transform: uppercase;
+		}
+
+		// .delivery-terms__list
+
+		&__list {
+         margin-bottom: 30px;
+         padding-left: 15px;
+         list-style: disc;
+		}
+
+		// .delivery-terms__text
+
+		&__text {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+}
+.delivery-payment {
+
+		// .delivery-payment__title
+
+		&__title {
+         margin-bottom: 15px;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+         text-transform: uppercase;
+		}
+
+		// .delivery-payment__card
+
+		&__card {
+		}
+
+		// .delivery-payment__card-title
+
+		&__card-title {
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__card-list
+
+		&__card-list {
+         margin-bottom: 10px;
+         padding-left: 15px;
+         list-style: disc;
+		}
+
+		// .delivery-payment__card-text
+
+		&__card-text {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__card-image
+
+		&__card-image {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+		}
+
+		// .delivery-payment__sbp
+
+		&__sbp {
+		}
+
+		// .delivery-payment__sbp-title
+
+		&__sbp-title {
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__sbp-list
+
+		&__sbp-list {
+         margin-bottom: 30px;
+         padding-left: 15px;
+         list-style: disc;
+		}
+
+		// .delivery-payment__sbp-text
+
+		&__sbp-text {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__credit
+
+		&__credit {
+		}
+
+		// .delivery-payment__credit-title
+
+		&__credit-title {
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__credit-list
+
+		&__credit-list {
+         margin-bottom: 30px;
+         padding-left: 15px;
+         list-style: disc;
+		}
+
+		// .delivery-payment__credit-text
+
+		&__credit-text {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__credit-subtitle
+
+		&__credit-subtitle {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__credit-apply
+
+		&__credit-apply {
+		}
+
+		// .delivery-payment__credit-apply-title
+
+		&__credit-apply-title {
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__credit-apply-list
+
+		&__credit-apply-list {
+         margin-bottom: 30px;
+         padding-left: 15px;
+         list-style: disc;
+		}
+
+		// .delivery-payment__balance
+
+		&__balance {
+		}
+
+		// .delivery-payment__balance-title
+
+		&__balance-title {
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+
+		// .delivery-payment__balance-text
+
+		&__balance-text {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+}
+
+.delivery-payment__balance ul {
+   padding-left: 15px;
+   list-style: disc;
+}
+
+.credit-subtitle {
+   margin-bottom: 30px;
+}
+.card-payment {
+   margin-bottom: 30px;
+}
+.visa {
+   width: 57px;
+   height: 18px;
+}
+.mastercard {
+   width: 42px;
+   height: 32px;
+}
+.maestro {
+   width: 42px;
+   height: 32px;
+}
+.mir {
+   width: 58px;
+   height: 16px;
+}
+.credit-payment {
+}
+.delivery-paymnent {
+
+		// .delivery-paymnent__credit-apply-text
+
+		&__credit-apply-text {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 28px;
+         color: #242424;
+		}
+}

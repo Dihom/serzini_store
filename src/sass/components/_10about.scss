@@ -1,6 +1,6 @@
 .about {
    padding: 80px 0px;
-   margin-bottom: 40px;
+   // margin-bottom: 40px;
 
    // .about__text--semibold
 
@@ -12,7 +12,7 @@
 
    &__text--wb {
       font-weight: 600;
-      font-size: 13px;
+      font-size: 16px;
       line-height: 28px;
       color: #C53296;
       text-decoration: underline;
@@ -52,7 +52,7 @@
 .about-wrapper {
 }
 .about-title {
-   margin-bottom: 60px;
+   margin-bottom: 20px;
    font-weight: 600;
    font-size: 28px;
    line-height: 28px;
@@ -83,7 +83,7 @@
       text-indent: 20px;
 
       font-weight: 500;
-      font-size: 13px;
+      font-size: 16px;
       line-height: 28px;
       color: #242424;
    }

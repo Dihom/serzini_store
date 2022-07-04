@@ -82,7 +82,14 @@
    transform: translateY(80%);
 }
 
-.arrow-left, .arrow-right {
+.arrow-left {
+   height: 15px;
+   fill: #8b8b8b;
+   transform: translateY(80%);
+   transition: fill 0.2s ease-in-out;
+}
+
+.arrow-right {
    height: 15px;
    fill: #8b8b8b;
    transform: translateY(80%);
